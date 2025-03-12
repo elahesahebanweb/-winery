@@ -1,0 +1,501 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+
+    >header {
+        background-image: url(../img/header-background-scaled.jpg);
+        background-attachment: fixed;
+        width: 100%;
+        height: 270px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+        >div {
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            >figure {
+                >img {
+                    width: 200px;
+                    height: 100px;
+                    margin-top: 70px;
+                    margin-left: 500px;
+
+                }
+            }
+
+            >span {
+
+                >svg {
+
+                    width: 50px;
+                    height: 50px;
+                    margin-left: 400px;
+                    margin-top: 100px;
+                    color: #ff6365;
+                    border: 1px solid #ff6365;
+                    padding: 10px;
+                    border-radius: 8px;
+                }
+            }
+        }
+
+        >div {
+            &:last-of-type {
+                background-color: #45152a;
+                width: 100%;
+                height: 60px;
+                margin-top: 38px;
+
+                >nav {
+                    >ul {
+                        display: flex;
+                        list-style: none;
+                        justify-content: center;
+                        gap: 50px;
+
+                        >li {
+
+                            margin-bottom: 10px;
+
+                            >a {
+                                text-decoration: none;
+                                color: white;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    >.parte1 {
+        background-image: url(../img/hero-background-full-scaled.jpg);
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        justify-content: center;
+        height: 700px;
+
+        >div {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+
+            >h3 {
+                color: white;
+                font-size: 30px;
+                margin-bottom: 20px;
+            }
+
+            >h1 {
+                color: white;
+                font-size: 100px;
+                margin-bottom: 30px;
+
+            }
+
+            >button {
+                margin-top: 40px;
+                width: 200px;
+                height: 50px;
+                margin-bottom: 90px;
+                background-color: #7f0f41;
+                color: aliceblue;
+                border: none;
+            }
+        }
+
+    }
+
+
+    >.parte2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 500px;
+        gap: 40px;
+
+        >div {
+            background-image: url(../img/calltoaction-background.jpg);
+            background-size: cover;
+            background-position: center;
+            width: 380px;
+            height: 370px;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 100px;
+
+            >figure {
+
+                display: flex;
+                justify-content: center;
+
+                >img {
+                    width: 110px;
+                    height: 250px;
+                    margin-top: 30px;
+                }
+            }
+
+            >h2 {
+                font-size: 30px;
+                margin-top: 20px;
+                color: #7f0f41;
+            }
+
+            >button {
+                width: 380px;
+                height: 40px;
+                background-color: #7f0f41;
+                color: aliceblue;
+                border: none;
+
+            }
+        }
+
+
+    }
+
+
+
+
+
+    >.parte3 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100px;
+        width: 100%;
+
+        >p {
+
+            color: #45152a;
+            font-size: 20px;
+            margin-top: 40px;
+
+        }
+
+        >h1 {
+
+            color: #45152a;
+            font-size: 60px;
+        }
+
+    }
+
+
+    >.parte4 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 600px;
+        width: 100%;
+
+        div {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+
+            >figure {
+                >img {
+                    width: 400px;
+                    height: 270px;
+                }
+            }
+
+            >p {
+
+                color: #45152a;
+                margin-top: 15px;
+            }
+
+            >h2 {
+                color: #45152a;
+            }
+
+            >button {
+                background-color: white;
+                border: none;
+                margin-top: 20px;
+                font-size: 20px;
+                color: #45152a;
+            }
+        }
+    }
+
+    >.parte5 {
+        background-image: url(../img/subscribe-background-scaled.jpg);
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        width: 100%;
+
+        >div {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            margin-bottom: 300px;
+            gap: 10px;
+
+            >p {
+                font-size: 25px;
+                width: 800px;
+                text-align: center;
+
+            }
+
+            >h4 {
+                font-size: 25px;
+                color: #45152a;
+
+            }
+
+            >h1 {
+                font-size: 60px;
+                color: #45152a;
+            }
+
+            >input {
+                width: 700px;
+                height: 50px;
+                margin-top: 40px;
+                border: none;
+                border-radius: 5PX;
+            }
+
+            >button {
+                width: 250px;
+                height: 50px;
+                margin-top: 10px;
+                background-color: #7f0f41;
+                color: aliceblue;
+                border: none;
+            }
+        }
+    }
+
+    >.parte6 {
+        background-image: url(../img/vineyard-tours-background-scaled.jpg);
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        height: 550px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        >div {
+            display: flex;
+            flex-direction: column;
+            margin-left: 150px;
+            gap: 20px;
+
+            >h3 {
+                color: white;
+                font-size: 20px;
+            }
+
+            >h1 {
+                color: white;
+                font-size: 50px;
+
+            }
+
+            >p {
+                color: white;
+                font-size: 18px;
+                width: 550px;
+
+            }
+
+            >button {
+                width: 260px;
+                height: 40px;
+                margin-top: 15px;
+                background-color: #7f0f41;
+                color: aliceblue;
+                border: none;
+            }
+        }
+    }
+
+    >.parte7 {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 100px;
+        background-color: white;
+
+        >div {
+
+
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            gap: 10px;
+
+            >p {
+                margin-top: 120px;
+                font-size: 15px;
+                color: #45152a;
+            }
+
+            >h2 {
+                font-size: 50px;
+                color: #45152a;
+
+            }
+
+
+
+        }
+    }
+
+    >.parte8 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-items: start;
+        width: 100%;
+        height: 650px;
+        gap: 20px;
+
+        div {
+
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 120px;
+            gap: 20px;
+
+            >img {
+                width: 400px;
+                height: 300px;
+
+            }
+
+            >h2 {
+                font-size: 30px;
+            }
+
+            >button {
+                width: 200px;
+                height: 50px;
+                margin-top: 30px;
+                background-color: #7f0f41;
+                color: aliceblue;
+
+                border: none;
+            }
+        }
+
+    }
+
+    >footer {
+        background-image: url(../img/footer-background-scaled.jpg);
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        height: 100vh;
+
+        >img {
+            width: 259px;
+            height: 126px;
+            margin-left: 650px;
+
+            &:last-of-type {
+                width: 400px;
+                height: 50px;
+                margin-top: 130px;
+                margin-left: 500px;
+            }
+        }
+
+        >p {
+            margin-left: 300px;
+            margin-top: 20px;
+            color: aliceblue;
+        }
+
+        >div {
+            display: flex;
+            align-items: start;
+            justify-content: center;
+            height: 300px;
+            gap: 10px;
+
+            >div {
+                margin-top: 50px;
+                width: 300px;
+
+                >nav {
+                    >ul {
+                        list-style: none;
+
+                        >li {
+                            margin-top: 20px;
+
+                            >a {
+                                text-decoration: none;
+                                color: aliceblue;
+                                font-size: 12px;
+
+                                &:hover {
+                                    color: rgb(245, 73, 73);
+                                }
+                            }
+                        }
+                    }
+                }
+
+                >h1 {
+
+                    font-size: 30px;
+                    width: 300px;
+                    margin-bottom: 20px;
+                    color: aliceblue;
+
+
+                }
+
+                >button {
+                    width: 170px;
+                    height: 40px;
+                    margin-top: 10px;
+                    background-color: #45152a;
+                    color: aliceblue;
+                    border: none;
+                    cursor: pointer;
+
+                }
+
+                >input {
+                    width: 350px;
+                    height: 50px;
+                    border-radius: 5px;
+                    border: none;
+                }
+            }
+        }
+    }
+}
